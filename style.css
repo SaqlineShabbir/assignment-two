@@ -247,11 +247,13 @@ footer p{
 
 /*---------media queri---------*/
 
-@media ( max-width:700px) {
-    
+@media ( max-width:500px) {
+    .head-wrapper{
+        width: 100%;
+    }
     .head-content{
         
-        flex-direction: column;
+        flex-direction:column;
         
 
     }
@@ -261,12 +263,15 @@ footer p{
 
     }
     .head-content-text{
+        width:200px
         margin-left: 50;
     }
     .head-content-img img{
         margin-top: 50px;
         margin-right: 100px;
-        margin-left: 40px;
+        margin-left: 130px;
+
+        width:200px
     }
 
     .main-first-content{
