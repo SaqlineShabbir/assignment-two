@@ -10,8 +10,9 @@ body{
 }
 .nav-links{
     display: flex;
+    flex-wrap: wrap;
     justify-content:space-between;
-    margin-left: 200px;
+    margin-left: 140px;
     
 }
 .nav-links ul li{
@@ -36,9 +37,240 @@ body{
     padding-right: 10px;
 }
 .head-content{
-    margin-left: 200px;
+    display: flex;
+}
+.head-content-text{
+    font-family:'Poppins', sans-serif ;
+    font-style: bold;
+    font-size:1em;
+    font-weight: 700;
+    color: white;
+    width: 491px;
+    height:230px;
+    margin-left: 161px;
+
+}
+.head-content-img img{
+    margin-left: 100px;
+    width: 549px;
+    height:44p5x;
+}
+
+
+
+.btn1{
+    background-color:red;
+   padding-left: 20px;
+   padding-right: 20px;
+    height:58px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.btn1 a{
+    text-decoration: none;
+    color: white;
+}
+.btn1 .fas{
+    padding-left:15px;
+   }
+
+
+     /*-------main---------*/
+.main-first-content{
+    margin-left: 180px;
+    margin-right: 100px;
+    margin-top:70px ;
+    justify-content: center;
+    display:grid;
+    grid-template-columns:repeat(3, 1fr) ;
+    
+}
+
+.main-content-wrapper{
+    padding: 10px 10px;
+    height:474px;
+    width:330px;
+    justify-content: center;
+    
+    background-color: white;
+    box-shadow: 3px 3px 3px 5px gray;
+    margin-bottom: 50px;
+}
+.main-content-wrapper img{
+    width:300px;
+    height:256;
+    margin-top: 10px;
+    margin-left: 15px;
+
+}
+.main-content-text{
+    padding-left: 20px;
+}
+
+/*------main extra content-------*/
+
+
+
+
+
+
+.main-extra-content-img img{
+    width:567px;
+    height:427px;
+    margin-left:50px;
+}
+.main-extra-content{
     display:flex;
     flex-wrap: wrap;
+    margin-top: 100px;
+     margin-left:182px;
+     margin-right:182px;
+}
+
+
+.main-extra-content-text{
+    width:466px;
+    
+}
+.btn2{
+    background-color: #E02C6D;
+    border: none;
+    padding:10px;
+    
+}
+.btn2 a{
+   text-decoration: none;
+   color: white;
+}
+
+footer{
+    margin-top: 100px;
+    justify-content:center;
+    align-items: center;
+    margin-left: 475px;
+    margin-right:475;
+}
+footer img{
+    width: 483px;
+    height:213px;
+}
+.footer-icons{
+    display: flex;
+    margin-left:300px;
+    
+}
+.logo-icon{
+    padding:5px;
+    
+}
+.logo-icon .fab{
+    height:100px;
+}
+footer p{
+    justify-content: center;
+    margin-top: 0;
+    margin-left: 200px;
+}
+
+
+
+
+/*---------media queri---------*/
+
+@media ( max-width:700px) {
+    
+    .head-content{
+        
+        flex-direction: column;
+        
+
+    }
+    .nav-links{
+        margin-left: 0;
+        display:none;
+
+    }
+    .head-content-text{
+        margin-left: 50;
+    }
+    .head-content-img img{
+        margin-top: 50px;
+        margin-right: 100px;
+        margin-left: 0;
+    }
+
+    .main-first-content{
+        justify-content: center;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .main-extra-content{
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-right:50px;
+    }
+    .main-extra-content-img img{
+        margin-right:100px ;
+        margin-top: 50px;
+        width: 300px;
+        height: 248px;
+
+        
+    }
+    .main-extra-content-text{
+        justify-content: center;
+        width: 300px;
+    }
+
+   footer{
+       margin-left: 200px;
+       justify-content:center;
+   }
+
+   footer img{
+       margin-top: 50px;
+       width:300px;
+       height:100px;
+   }
+    .footer-icons{
+        
+        margin-left:100px;
+    }
+    footer p{
+        margin-left: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/*---------
+   <div class="head-content">
+        <div class="head-texts">
+            <h1>Conmebol <br>Copa America <br> 2021</h1>
+            <button class="btn1" type="button"><a href="http://youtube.com">Watch Live<i class="fas fa-arrow-right"></i></a>
+            </button>
+        </div>
+        <div class="head-img">
+            <img src="images/banner.png" alt="">
+        </div>
+       
+    </div> 
+    
+    
+    
+    
+   .head-content{
+    margin-left: 200px;
+    display:flex;
     margin-top: 50px;
 
 }
@@ -83,81 +315,13 @@ body{
 }
 .head-img img{
     width:100%;
-}
-
-
-     /*-------main---------*/
-.main-first-content{
-    margin-left: 180px;
-    margin-top:70px ;
-    justify-content: center;
-    display:grid;
-    grid-template-columns:repeat(3, 1fr) ;
+} 
     
-}
-
-.main-content-wrapper{
-    height:474px;
-    width:330px;
-    justify-content: center;
-    box-shadow:5px 5px 5px 5px  gray;
-    margin-bottom: 50px;
-}
-.main-content-wrapper img{
-    width:100%;
-}
-.main-content-text{
-    padding-left: 20px;
-}
-
-/*------main extra content-------*/
-
-.main-extra-content-img img{
-width:567px;
-height:427;
-margin-left:50px;
-
-
-}
-.main-extra-content{
-    display: flex;
-    margin:50px 187px;
-
-}
-.main-extra-content-text{
-    width:466;
-    height:309;
-}
-.btn2{
-    background-color: #E02C6D;
-    border: none;
-    padding:10px;
     
-}
-.btn2 a{
-   text-decoration: none;
-   color: white;
-}
-
-footer{
-    justify-content:center;
-    align-items: center;
-    margin-left: 475px;
-    margin-right:475;
-}
-footer img{
-    width: 483px;
-    height:213px;
-}
-.footer-icons{
-    display: flex;
-    margin-left:300px;
     
-}
-.logo-icon{
-    padding:5px;
     
-}
-.logo-icon .fab{
-    height:100px;
-}
+    
+    
+    
+    
+    */
