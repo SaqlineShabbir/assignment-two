@@ -12,7 +12,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content:space-between;
-    margin-left: 140px;
+    margin-left: 120px;
     
 }
 .nav-links ul li{
@@ -60,8 +60,8 @@ body{
 
 .btn1{
     background-color:red;
-   padding-left: 20px;
-   padding-right: 20px;
+   padding-left: 10px;
+   padding-right: 10px;
     height:58px;
     border: none;
     color: white;
@@ -74,7 +74,10 @@ body{
 .btn1 .fas{
     padding-left:15px;
    }
-
+.head-wrapper:hover button{
+    transform:scale(1.5);
+    transition: transform 1s;
+}
 
      /*-------main---------*/
 .main-first-content{
@@ -107,6 +110,43 @@ body{
 .main-content-text{
     padding-left: 20px;
 }
+
+    /*------main second content-------*/
+.main-second-content{
+    display:flex;
+   flex-wrap: wrap;
+}
+.about{
+    text-align: center;
+    padding:20px;
+
+}
+.main-second-content-wrapper{
+justify-content: center;
+background-color:#2d25a091;
+margin-top: 100px;
+margin-bottom:100px;
+margin-left:187px;
+margin-right: 180px;
+}
+.main-second-content{
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.main-second-content-texts{
+    width:500px;
+    height:400px ;
+    margin-left: 200px;
+    
+
+}
+
+
+
+
+
 
 /*------main extra content-------*/
 
@@ -143,6 +183,35 @@ body{
    text-decoration: none;
    color: white;
 }
+/*--------follow------*/
+.followers-wrapper{
+    margin-top :250px ;
+    margin-left: 200px;
+    margin-right:200px;
+    margin-bottom:100px;
+
+    padding:10px;
+    box-shadow:10px 10px 10px 15px grey
+
+}
+.follow-content1{
+    margin-left:500px;
+    padding:10px;
+    justify-content:center;
+}
+.follow-content2{
+    display:flex;
+    justify-content:center;
+    
+}
+.follow-content{
+    margin:30px;
+}
+
+
+
+    /*---footer---*/
+
 
 footer{
     margin-top: 100px;
@@ -204,6 +273,14 @@ footer p{
         justify-content: center;
         grid-template-columns: repeat(1, 1fr);
     }
+    .main-second-content-wrapper{
+        margin-right: 120px;
+    }
+    .main-second-content-texts{
+        width: 400px;
+        height: 50%;
+        margin-right: 200px;
+    }
 
     .main-extra-content{
         justify-content: center;
@@ -221,8 +298,10 @@ footer p{
     }
     .main-extra-content-text{
         justify-content: center;
-        width: 300px;
+        width: 350px;
     }
+ 
+/*  foooter*/
 
    footer{
        margin-left: 200px;
@@ -234,12 +313,15 @@ footer p{
        width:300px;
        height:100px;
    }
-    .footer-icons{
-        
-        margin-left:100px;
+   .footer-icons{
+       margin-left:80px;
+   }
+    .footer-icon{
+       font-size:2em;
+        padding:10px;
     }
     footer p{
-        margin-left: 50px;
+        margin-left: 80px;
     }
 }
 
@@ -251,77 +333,3 @@ footer p{
 
 
 
-
-/*---------
-   <div class="head-content">
-        <div class="head-texts">
-            <h1>Conmebol <br>Copa America <br> 2021</h1>
-            <button class="btn1" type="button"><a href="http://youtube.com">Watch Live<i class="fas fa-arrow-right"></i></a>
-            </button>
-        </div>
-        <div class="head-img">
-            <img src="images/banner.png" alt="">
-        </div>
-       
-    </div> 
-    
-    
-    
-    
-   .head-content{
-    margin-left: 200px;
-    display:flex;
-    margin-top: 50px;
-
-}
-.head-texts{
-    height:230px;
-    width:487px;
-}
-.head-texts h1{
-    line-height:80px;
-    color: white;
-    font-family:'Poppins', sans-serif; ;
-    font-size:4em ;
-    font-style: bold;
-}
-.btn1{
-    background-color:red;
-   padding-left: 20px;
-   padding-right: 20px;
-    height:58px;
-    border: none;
-    color: white;
-    transition: 1s;
-    cursor: pointer;
-    
-
-}
-.btn1 .fas{
- padding-left:15px;
-}
-.btn1 a{
-    text-decoration:none;
-    color: white;
-}
-.btn1:hover{
-    transform: translate();
-}
-  
-.head-img {
-    width:50%;
-    margin-left: 50px;
-    
-}
-.head-img img{
-    width:100%;
-} 
-    
-    
-    
-    
-    
-    
-    
-    
-    */
