@@ -200,7 +200,7 @@ body{
 
 @media screen and (max-width:375px){
       .head-wrapper{
-          width:375px;
+          width:374px;
           
       }
       .head-content{
@@ -231,7 +231,7 @@ body{
         /*----main first----*/
      .main-first-content{
          grid-template-columns: repeat(1 ,1fr);
-         margin-left:120px;
+         margin-left:95px;
      }
      .main-first-content-wrapper{
          width:200px;
@@ -246,7 +246,7 @@ body{
      }
 
      .main-second-content-wrapper{
-         width:360px;
+         width:374px;
          height:950px;
          margin: 0;
          padding: 0;
@@ -270,7 +270,7 @@ body{
     }
      .main-extra-content-img img{
          width:300px;
-         margin-top: 100px;
+         margin-top: 150px;
          margin-left: 30px;;
          height:100%;
      }
